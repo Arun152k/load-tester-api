@@ -1,0 +1,62 @@
+{
+    "Server Software": "ECAcc",
+    "Server Hostname": "example.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "1256 bytes",
+    "Concurrency Level": 1,
+    "Time taken for tests": "0.347 seconds",
+    "Complete requests": 10,
+    "Failed requests": 0,
+    "Error rate": "0.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 0,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "16180 bytes",
+    "HTML transferred": "12560 bytes",
+    "Requests per second": "28.79 [#/sec] (mean)",
+    "Time per request": "34.582 [ms] (mean)",
+    "Transfer rate received": "45.49 [Kbytes/sec] received",
+    "Transfer rate sent": "0.00 [Kbytes/sec] sent",
+    "Transfer rate total": "45.49 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": 25.645999994594604,
+            "mean": 34.56151999998838,
+            "median": 31.83000000717584,
+            "max": 60.451700002886355
+        },
+        "Processing": {
+            "min": 0.000100000761449337,
+            "mean": 0.0001700012944638729,
+            "median": 0.000200001522898674,
+            "max": 0.000200001522898674
+        },
+        "Waiting": {
+            "min": 0.011199997970834374,
+            "mean": 0.01982999820029363,
+            "median": 0.014299992471933365,
+            "max": 0.0518000015290454
+        },
+        "Total": {
+            "min": 25.698500001453795,
+            "mean": 34.581890000845306,
+            "median": 31.8457999965176,
+            "max": 60.46520000381861
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": {
+        "50": 31.8457999965176,
+        "66": 31.892500002868474,
+        "75": 38.05990000546444,
+        "80": 40.14899999310728,
+        "90": 60.46520000381861,
+        "95": 60.46520000381861,
+        "98": 60.46520000381861,
+        "99": 60.46520000381861
+    }
+}

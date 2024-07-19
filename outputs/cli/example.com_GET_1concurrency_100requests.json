@@ -1,0 +1,62 @@
+{
+    "Server Software": "ECAcc",
+    "Server Hostname": "example.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "1256 bytes",
+    "Concurrency Level": 1,
+    "Time taken for tests": "3.023 seconds",
+    "Complete requests": 100,
+    "Failed requests": 0,
+    "Error rate": "0.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 0,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "161300 bytes",
+    "HTML transferred": "125600 bytes",
+    "Requests per second": "33.08 [#/sec] (mean)",
+    "Time per request": "30.129 [ms] (mean)",
+    "Transfer rate received": "52.10 [Kbytes/sec] received",
+    "Transfer rate sent": "0.00 [Kbytes/sec] sent",
+    "Transfer rate total": "52.10 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": 24.37810000265017,
+            "mean": 30.10706500004744,
+            "median": 29.50839999539312,
+            "max": 63.398800004506484
+        },
+        "Processing": {
+            "min": 0.0,
+            "mean": 0.0002300001506228,
+            "median": 0.000200001522898674,
+            "max": 0.0006999907782301307
+        },
+        "Waiting": {
+            "min": 0.007399998139590025,
+            "mean": 0.021483999298652634,
+            "median": 0.01930000144056976,
+            "max": 0.10210000618826598
+        },
+        "Total": {
+            "min": 24.40809999825433,
+            "mean": 30.129289999604225,
+            "median": 29.530900006648153,
+            "max": 63.416499993763864
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": {
+        "50": 29.530900006648153,
+        "66": 30.31669999472797,
+        "75": 30.553500007954426,
+        "80": 31.127800000831485,
+        "90": 33.89890000107698,
+        "95": 36.13310000218917,
+        "98": 50.802100013243034,
+        "99": 63.416499993763864
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "Server Software": "ECAcc",
+    "Server Hostname": "example.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "1256 bytes",
+    "Concurrency Level": 10,
+    "qps": null,
+    "Time taken for tests": "0.413 seconds",
+    "Complete requests": 100,
+    "Failed requests": 0,
+    "Error rate": "0.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 0,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "161634 bytes",
+    "HTML transferred": "125600 bytes",
+    "Requests per second": "241.94 [#/sec] (mean)",
+    "Time per request": "38.318 [ms] (mean)",
+    "Transfer rate received": "381.90 [Kbytes/sec] received",
+    "Transfer rate sent": "0.00 [Kbytes/sec] sent",
+    "Transfer rate total": "381.90 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": 24.488300012308173,
+            "mean": 38.297588999703294,
+            "median": 30.81499999098014,
+            "max": 74.59730000118725
+        },
+        "Processing": {
+            "min": 9.998620953410864e-05,
+            "mean": 0.000285999703919515,
+            "median": 0.000300002284348011,
+            "max": 0.000800006091594696
+        },
+        "Waiting": {
+            "min": 0.008099988917820156,
+            "mean": 0.01940100031788461,
+            "median": 0.016000005416572094,
+            "max": 0.08299999171867967
+        },
+        "Total": {
+            "min": 24.508499991497956,
+            "mean": 38.318016999110114,
+            "median": 30.828899994958192,
+            "max": 74.6149000042351
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": {
+        "50": 30.828899994958192,
+        "66": 34.150199993746355,
+        "75": 41.83750000083819,
+        "80": 50.86989999108482,
+        "90": 68.68679999024607,
+        "95": 73.25589998799842,
+        "98": 74.61110000440385,
+        "99": 74.6149000042351
+    }
+}

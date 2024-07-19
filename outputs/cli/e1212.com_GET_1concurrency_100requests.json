@@ -1,0 +1,53 @@
+{
+    "Server Software": null,
+    "Server Hostname": "e1212.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "0 bytes",
+    "Concurrency Level": 1,
+    "Time taken for tests": "0.000 seconds",
+    "Complete requests": 0,
+    "Failed requests": 100,
+    "Error rate": "100.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 100,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "0 bytes",
+    "HTML transferred": "0 bytes",
+    "Requests per second": "0.00 [#/sec] (mean)",
+    "Time per request": "0.000 [ms] (mean)",
+    "Transfer rate received": "0.00 [Kbytes/sec] received",
+    "Transfer rate sent": "0.00 [Kbytes/sec] sent",
+    "Transfer rate total": "0.00 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": "N/A",
+            "mean": "N/A",
+            "median": "N/A",
+            "max": "N/A"
+        },
+        "Processing": {
+            "min": "N/A",
+            "mean": "N/A",
+            "median": "N/A",
+            "max": "N/A"
+        },
+        "Waiting": {
+            "min": "N/A",
+            "mean": "N/A",
+            "median": "N/A",
+            "max": "N/A"
+        },
+        "Total": {
+            "min": "N/A",
+            "mean": "N/A",
+            "median": "N/A",
+            "max": "N/A"
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": "N/A"
+}

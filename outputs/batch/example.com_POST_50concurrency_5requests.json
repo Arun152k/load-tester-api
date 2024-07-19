@@ -1,0 +1,62 @@
+{
+    "Server Software": "EOS",
+    "Server Hostname": "example.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "1256 bytes",
+    "Concurrency Level": 50,
+    "Time taken for tests": "0.159 seconds",
+    "Complete requests": 5,
+    "Failed requests": 0,
+    "Error rate": "0.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 0,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "7690 bytes",
+    "HTML transferred": "6280 bytes",
+    "Requests per second": "31.45 [#/sec] (mean)",
+    "Time per request": "148.235 [ms] (mean)",
+    "Transfer rate received": "47.23 [Kbytes/sec] received",
+    "Transfer rate sent": "0.49 [Kbytes/sec] sent",
+    "Transfer rate total": "47.73 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": 109.08010001003277,
+            "mean": 148.22411999921314,
+            "median": 157.862699998077,
+            "max": 158.64009999495465
+        },
+        "Processing": {
+            "min": 0.000100000761449337,
+            "mean": 0.0001200009137392044,
+            "median": 0.000100000761449337,
+            "max": 0.000200001522898674
+        },
+        "Waiting": {
+            "min": 0.006400005077011883,
+            "mean": 0.010719997226260602,
+            "median": 0.00790000194683671,
+            "max": 0.01649999467190355
+        },
+        "Total": {
+            "min": 109.09660000470467,
+            "mean": 148.2352399994852,
+            "median": 157.87100000306964,
+            "max": 158.65719999419525
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": {
+        "50": 157.87100000306964,
+        "66": 157.89539999968838,
+        "75": 157.89539999968838,
+        "80": 158.65719999419525,
+        "90": 158.65719999419525,
+        "95": 158.65719999419525,
+        "98": 158.65719999419525,
+        "99": 158.65719999419525
+    }
+}

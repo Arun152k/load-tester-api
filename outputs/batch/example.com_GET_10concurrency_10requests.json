@@ -1,0 +1,62 @@
+{
+    "Server Software": "ECAcc",
+    "Server Hostname": "example.com",
+    "Server Port": 80,
+    "Document Path": "",
+    "Document Length": "1256 bytes",
+    "Concurrency Level": 10,
+    "Time taken for tests": "0.072 seconds",
+    "Complete requests": 10,
+    "Failed requests": 0,
+    "Error rate": "0.00%",
+    "Write errors": 0,
+    "Connection errors": 0,
+    "Read errors": 0,
+    "Status code errors": 0,
+    "Invalid URL errors": 0,
+    "Timeout errors": 0,
+    "Keep-Alive requests": 0,
+    "Total transferred": "16141 bytes",
+    "HTML transferred": "12560 bytes",
+    "Requests per second": "138.86 [#/sec] (mean)",
+    "Time per request": "67.445 [ms] (mean)",
+    "Transfer rate received": "218.88 [Kbytes/sec] received",
+    "Transfer rate sent": "0.00 [Kbytes/sec] sent",
+    "Transfer rate total": "218.88 [Kbytes/sec] total",
+    "Connection Times (ms)": {
+        "Connect": {
+            "min": 60.83770000259392,
+            "mean": 67.43874000385404,
+            "median": 70.9867999976268,
+            "max": 71.43080000241753
+        },
+        "Processing": {
+            "min": 0.0,
+            "mean": 7.00005330145359e-05,
+            "median": 0.000100000761449337,
+            "max": 0.000100000761449337
+        },
+        "Waiting": {
+            "min": 0.0031999952625483274,
+            "mean": 0.005519998376257718,
+            "median": 0.0040000013541430235,
+            "max": 0.012200005585327744
+        },
+        "Total": {
+            "min": 60.850100009702146,
+            "mean": 67.44453000137582,
+            "median": 70.9902999951737,
+            "max": 71.43429999996442
+        }
+    },
+    "Percentage of the requests served within a certain time (ms)": {
+        "50": 70.9902999951737,
+        "66": 71.08150000567548,
+        "75": 71.1511999979848,
+        "80": 71.23900001170114,
+        "90": 71.43429999996442,
+        "95": 71.43429999996442,
+        "98": 71.43429999996442,
+        "99": 71.43429999996442
+    }
+}
