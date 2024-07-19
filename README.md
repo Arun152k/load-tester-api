@@ -16,6 +16,8 @@
 ## Overview
 Load Tester API is a comprehensive HTTP load testing tool designed to simulate various loads on web services and measure their performance. The tool is built using `aiohttp` for asynchronous HTTP requests and provides detailed reports on the performance of the tested endpoints. Semaphores were used to perform concurrent requests. 
 
+The Load Tester tool evaluates server performance by simulating concurrent HTTP requests. It consists of the LoadTester class for managing and executing tests, the TestResult class for collecting and summarizing metrics, and the generate_report function for producing a detailed performance report. The tool runs tests based on user-defined parameters (URL, concurrency, request count, etc.), measures various performance metrics, and provides a comprehensive report of latencies, transfer rates, and error rates. Results are saved in JSON format and printed for easy review.
+
 ## Features
 - Asynchronous HTTP requests using `aiohttp`
 - Configurable concurrency, total requests and qpos

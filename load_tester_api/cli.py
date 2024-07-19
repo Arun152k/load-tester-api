@@ -24,15 +24,10 @@ async def run_test(
         await tester.run_test()
         results = tester.get_results()
         formatted_results = formatter.format_results(results.summary())
-
-        # Ensure the output directory exists
         os.makedirs(utils.cli_output_folder(), exist_ok=True)
-        # Save JSON output to a file
         output_filename = f"{utils.cli_output_folder()}/{urlparse(url).hostname}_{method}_{concurrency}concurrency_{requests}requests.json"
         with open(output_filename, "w") as f:
             json.dump(formatted_results, f, indent=4)
-
-        # Pretty print the formatted results
         print(json.dumps(formatted_results, indent=4))
         print(f"Results saved to {output_filename}")
     except LoadTesterError as e:
