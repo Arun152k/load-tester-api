@@ -12,6 +12,8 @@
   - [Docker](#docker)
   - [Examples](#examples)
 - [Tests](#tests)
+- [Future Work](#future-work)
+
 
 ## Overview
 Load Tester API is a comprehensive HTTP load testing tool designed to simulate various loads on web services and measure their performance. The tool is built using `aiohttp` for asynchronous HTTP requests and provides detailed reports on the performance of the tested endpoints. Semaphores were used to perform concurrent requests. 
@@ -106,4 +108,8 @@ Running Tests
 To run the unit tests provided in tests/ut1.py, use the following command:
 
 ```python -m unittest load_tester_api.tests.ut1```
+
+### Future Work
+
+Future updates will focus on code refactoring to improve readability and maintainability. We aim to address minor bugs and optimize performance to ensure more accurate and reliable testing results. Upcoming changes will also include additional features such as more detailed reporting options, enhanced error handling, and support for more HTTP methods and payloads.
 

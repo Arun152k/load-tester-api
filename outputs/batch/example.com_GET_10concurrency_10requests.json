@@ -5,7 +5,8 @@
     "Document Path": "",
     "Document Length": "1256 bytes",
     "Concurrency Level": 10,
-    "Time taken for tests": "0.072 seconds",
+    "qps": null,
+    "Time taken for tests": "0.081 seconds",
     "Complete requests": 10,
     "Failed requests": 0,
     "Error rate": "0.00%",
@@ -16,47 +17,47 @@
     "Invalid URL errors": 0,
     "Timeout errors": 0,
     "Keep-Alive requests": 0,
-    "Total transferred": "16141 bytes",
+    "Total transferred": "16145 bytes",
     "HTML transferred": "12560 bytes",
-    "Requests per second": "138.86 [#/sec] (mean)",
-    "Time per request": "67.445 [ms] (mean)",
-    "Transfer rate received": "218.88 [Kbytes/sec] received",
+    "Requests per second": "122.75 [#/sec] (mean)",
+    "Time per request": "70.693 [ms] (mean)",
+    "Transfer rate received": "193.53 [Kbytes/sec] received",
     "Transfer rate sent": "0.00 [Kbytes/sec] sent",
-    "Transfer rate total": "218.88 [Kbytes/sec] total",
+    "Transfer rate total": "193.53 [Kbytes/sec] total",
     "Connection Times (ms)": {
         "Connect": {
-            "min": 60.83770000259392,
-            "mean": 67.43874000385404,
-            "median": 70.9867999976268,
-            "max": 71.43080000241753
+            "min": 66.1229999968782,
+            "mean": 70.67802000092342,
+            "median": 71.19139999849722,
+            "max": 76.86620000458788
         },
         "Processing": {
-            "min": 0.0,
-            "mean": 7.00005330145359e-05,
-            "median": 0.000100000761449337,
-            "max": 0.000100000761449337
+            "min": 0.000100000761449337,
+            "mean": 0.00017999991541728377,
+            "median": 0.000200001522898674,
+            "max": 0.000300002284348011
         },
         "Waiting": {
-            "min": 0.0031999952625483274,
-            "mean": 0.005519998376257718,
-            "median": 0.0040000013541430235,
-            "max": 0.012200005585327744
+            "min": 0.007499998901039362,
+            "mean": 0.014550000196322799,
+            "median": 0.010299991117790341,
+            "max": 0.03959999594371766
         },
         "Total": {
-            "min": 60.850100009702146,
-            "mean": 67.44453000137582,
-            "median": 70.9902999951737,
-            "max": 71.43429999996442
+            "min": 66.13289999950211,
+            "mean": 70.6930900021689,
+            "median": 71.19930000044405,
+            "max": 76.88710000365973
         }
     },
     "Percentage of the requests served within a certain time (ms)": {
-        "50": 70.9902999951737,
-        "66": 71.08150000567548,
-        "75": 71.1511999979848,
-        "80": 71.23900001170114,
-        "90": 71.43429999996442,
-        "95": 71.43429999996442,
-        "98": 71.43429999996442,
-        "99": 71.43429999996442
+        "50": 71.19930000044405,
+        "66": 71.2191999919014,
+        "75": 72.56149999739137,
+        "80": 72.60820000374224,
+        "90": 76.88710000365973,
+        "95": 76.88710000365973,
+        "98": 76.88710000365973,
+        "99": 76.88710000365973
     }
 }
